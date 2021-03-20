@@ -1,6 +1,83 @@
-html {
-  background-color: lavenderblush;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font: 18px "Montserrat", "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #fffffd;
 }
+
+a {
+  color: #ff5252;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", "Montserrat", "Lucida Grande", sans-serif;
+  font-weight: normal;
+  color: #080808;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 42px;
+}
+
+h2 {
+  margin-top: 50px;
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
 p {
-  color: maroon;
+  color: #646464;
+}
+
+ul {
+  color: #646464;
+}
+
+.card {
+  width: 100%;
+  padding: 15px;
+  border-bottom: solid 1px #646464;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.screenshot {
+  border: solid 1px #dddddd;
+}
+
+.text-center {
+  text-align: center;
 }
