@@ -1,10 +1,14 @@
 import React from "react"
+import Layout from '../components/layout.js'
 
-export default function About() {
+const AboutPage = () => {
   return (
-    <div style={{ color: `teal` }}>
-      <h1>About Gatsby</h1>
-      <p>Such wow. Very React.</p>
-    </div>
+    <Layout>
+      <main>
+        <h1>About</h1>
+      </main>
+    </Layout>
   )
 }
+
+export default AboutPage
